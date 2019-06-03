@@ -1,0 +1,245 @@
+@charset "UTF-8";
+/*导航页面*/
+input{
+  background-color: white;
+}
+.nav {
+  height: 66px;
+  width: 100%;
+  background-color: #007db8;
+  box-shadow: 8px 2px 14px #868;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  float: left; }
+  .nav .iconfont {
+    display: block;
+    width: 45px;
+    height: 45px;
+    font-size: 43px;
+    margin-left: 136px;
+    margin-top: 10px; }
+  .nav .nav_img img {
+    margin-top: -34px;
+    margin-left: 212px; }
+
+/*登录、注册页面*/
+.re_page {
+  width: 1138px;
+  height: 510px;
+  margin: 104px auto;
+  border: 1px solid #EEEEEE;
+  /*background-color:pink;*/
+  /*登录*/
+  /*注册*/ }
+  .re_page .re_enter {
+    width: 544px;
+    height: 500px;
+    /*background-color: skyblue;*/
+    float: left;
+    padding-left: 24px;
+    padding-top: 12px;
+    /*二合一*/ }
+    .re_page .re_enter .username {
+      margin-bottom: 10px;
+      width: 265px;
+      height: 34px;
+      border-radius: 5px;
+      border: 1px solid black;
+      outline: none; }
+    .re_page .re_enter i {
+      color: red; }
+    .re_page .re_enter #fl {
+      width: 264px;
+      height: 34px;
+      /*background-color: red;*/
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 0px;
+      margin: 0px; }
+      .re_page .re_enter #fl .password {
+        margin-bottom: 10px;
+        width: 214px;
+        height: 31px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+        outline: none; }
+      .re_page .re_enter #fl button {
+        width: 44px;
+        height: 34px;
+        color: #007db8;
+        border: none;
+        outline: none;
+        border-radius: 0 5px 5px 0; }
+    .re_page .re_enter .btn1 {
+      width: 50px;
+      height: 34px;
+      font-size: 17px;
+      background-color: #007db8;
+      color: white;
+      border: none;
+      margin-bottom: 30px; }
+    .re_page .re_enter .forget {
+      font-size: 14px; }
+    .re_page .re_enter .wechat {
+      margin-top: 30px; }
+  .re_page .re_sign {
+    width: 549px;
+    height: 510px;
+    padding-left: 20px;
+    background-color: #EEEEEE;
+    float: left;
+    /*二合一*/ }
+    .re_page .re_sign h2 {
+      margin-bottom: 20px; }
+    .re_page .re_sign input {
+      margin-bottom: 5px; }
+    .re_page .re_sign .username {
+      margin-bottom: 10px;
+      width: 265px;
+      height: 34px;
+      border-radius: 5px;
+      border: 1px solid black;
+      outline: none; }
+    .re_page .re_sign i {
+      color: red; }
+    .re_page .re_sign .f2 {
+      width: 264px;
+      height: 34px;
+
+      /*background-color: red;*/
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 0px;
+      margin: 0px; 
+      button{
+       background-color:  #EEEEEE;
+        }}
+      .re_page .re_sign .f2 .password {
+        margin-bottom: 10px;
+        width: 214px;
+        height: 31px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+        outline: none; }
+      .re_page .re_sign .f2 button {
+        width: 44px;
+        height: 34px;
+        color: #007db8;
+        border: none;
+        outline: none;
+        border-radius: 0 5px 5px 0; }
+.re_sign{
+  .protocol{
+    margin-top: 10px;
+  }
+  .pw_req{
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .pro{
+    font-size: 12px;
+  }
+  .found{
+    width:78px;
+    height:34px;
+    background-color:#0F6ECA;
+    border:none;
+    font-size: 16px;
+    color:white;
+    margin-top: 10px;
+  }
+  .cancel{
+    font-size: 13px;
+    a{
+    color:#0F6ECA;
+
+    }
+  }
+}
+/*联系客服*/
+#ser {
+  width: 240px;
+  height: 250px;
+  border: 1px solid #007db8;
+  background-color: white;
+  position: fixed;
+  left: -237px;
+  top: 300px;
+  z-index: 2;
+  transition: 0.3s; }
+  #ser span {
+    width: 36px;
+    height: 44px;
+    color: white;
+    position: absolute;
+    line-height: 20px;
+    background-color: #007db8;
+    left: 240px;
+    top: 0px; }
+  #ser ul {
+    margin-top: -10px; }
+  #ser .ser_li {
+    width: 238px;
+    margin-top: 19px;
+    margin-bottom: 5px;
+    float: left;
+    height: 36px;
+    border-top: 1px solid black; }
+    #ser .ser_li .ser_img {
+      width: 34px;
+      height: 34px; }
+
+/*结束*/
+.finish {
+  width: 100%;
+  height: 99px;
+  /*background-color: pink;*/
+  /*position:fixed;*/
+  /*bottom:0px;*/ }
+  .finish .fin_nav {
+    width: 100%;
+    height: 45px;
+    background-color: #EEEEEE; }
+  .finish .fin_navl {
+    margin-left: 105px; }
+    .finish .fin_navl li {
+      float: left;
+      line-height: 45px; }
+      .finish .fin_navl li a {
+        margin: 0px 15px;
+        display: inline-block;
+        height: 45px;
+        font-size: 16px; }
+  .finish .fin_navr {
+    margin-left: 10px;
+    float: right; }
+    .finish .fin_navr li {
+      float: left; }
+      .finish .fin_navr li img {
+        margin-top: 16px;
+        margin-right: 20px; }
+    .finish .fin_navr li:nth-child(2) {
+      margin-top: 13px;
+      margin-right: 206px; }
+
+/*版权*/
+#copy {
+  width: 100%;
+  height: 54px;
+  background-color: #007db8; }
+  #copy ul {
+    width: 1170px;
+    height: 54px;
+    /*background-color: pink;*/
+    margin: 0 auto;
+    font-size: 12px;
+    /*line-height:54px ;*/ }
+    #copy ul li {
+      float: left;
+      margin-left: 25px;
+      margin-top: 6px;
+      color: white; }
+      #copy ul li a {
+        color: white; }
